@@ -30,14 +30,17 @@ nav div {
 }
 
 #cards-grid {
-    background: green;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.7rem;
+    padding: 0.7rem
 }
 
 .hashtag {
     display: inline-block;
-    background: pink;
-    border-radius: 1rem; padding: 0.2rem 0.6rem;
+    background: rgb(81, 55, 114);
+    color: white;
+    border-radius: 1rem; padding: 0.3rem 0.8rem;
     margin: 0px;
+    font-size: smaller;
 }

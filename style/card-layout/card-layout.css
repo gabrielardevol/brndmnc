@@ -1,9 +1,12 @@
 #card-layout {
-    height: 100%; position: absolute; right: 0px; top: 0px; background: orange; width: 0vw; overflow: hidden;
+    height: 100%; position: absolute; right: 0px; top: 0px; background: white; width: 0vw; overflow: hidden;
     transition: width 1s ease; 
 }
 
 #card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: pink;
 }
 
@@ -13,4 +16,12 @@
 
 header {
     height: 15vh
+}
+
+.column {
+    display: flex; flex-flow: column; gap: 0.6rem; padding-right: 0.6rem; padding-bottom: 0.6rem;
+}
+
+main {
+    padding-left: 0.6rem; margin-bottom: 0.6rem;
 }

@@ -1,0 +1,12 @@
+* {
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card, .column > div {
+    background: white;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.4rem;
+}
+

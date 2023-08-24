@@ -1,4 +1,24 @@
 .card {
-    background: yellow;
     display: flex;
 }
+
+.card > div:first-child {
+    width: 9rem;
+}
+
+.card > div:first-child li{
+    list-style: none;
+    margin: none;
+    width: fit-content;
+    font-size: smaller;
+}
+
+.card-pfp {
+    width: 6rem;
+    height: 6rem;
+    background: grey;
+    margin: auto; 
+    margin-top: 1.5rem;
+    border-radius: 1rem 3rem 1rem 3rem;
+}
+
