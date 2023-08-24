@@ -1,6 +1,5 @@
 
 #forms { /*dashboard column 1*/
-    background: red;
 }
 #forms div:first-of-type {
     display: flex
@@ -17,7 +16,6 @@
 }
 #forms button {
     width: 50%; 
-    background: blue;
     padding: 0.5rem;
     margin: 0.5rem;
 }
