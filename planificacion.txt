@@ -1,0 +1,19 @@
+trabajo con pomodoros de 40 minutos, flexibles segun mi estado de concentracion
+24/8/2023
+4 pomodoros empezando a las 18:30
+-leer enunciado
+-esquema del layout
+-navegacion básica
+
+
+-estructurar trabajo
+-... empezar a picar código
+-planificar el dia de mañana
+
+
+
+problemas
+-manejar muchas lineas de código en html sin framework
+    solucion: 
+    Reutilización de código: Identifica partes comunes que se repiten en varias páginas y crea archivos HTML separados para ellos. Luego, puedes usar la etiqueta <object> o <iframe> para incrustar esos componentes en tus diferentes páginas.
+    Uso de plantillas: Crea plantillas HTML con marcadores de posición para los datos variables. Luego, puedes cargar estos datos desde diferentes archivos o fuentes y llenar las plantillas dinámicamente con JavaScript o mediante un servidor backend.
