@@ -25,3 +25,7 @@ header {
 main {
     padding-left: 0.6rem; margin-bottom: 0.6rem;
 }
+
+#card-layout h2 {
+    font-size: medium;
+}
