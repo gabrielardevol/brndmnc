@@ -6,9 +6,9 @@ trabajo con pomodoros de 40 minutos, flexibles segun mi estado de concentracion
 -navegacion básica
 
 
--estructurar trabajo
--... empezar a picar código
+-empezar a picar código
 -planificar el dia de mañana
+    estudiar json
 
 
 

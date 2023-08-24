@@ -5,39 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" type="text/css" href="style/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="style/dashboard/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="style/dashboard/forms.css">
+    <link rel="stylesheet" type="text/css" href="style/dashboard/card.css">
+    <link rel="stylesheet" type="text/css" href="style/dashboard/layout.css">
+
+    <link rel="stylesheet" type="text/css" href="style/card-layout/card-layout.css">
+
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+
 </head>
 <body>
-    <nav>
-        <div>Salir</div>
-    </nav>
-    
-    <div id="dashboard-layout">
-        <div id="forms">
-            <form>
-            <div>
-                <button>1</button>
-                <button>2</button>
+    <div id="dashboard">
+        <nav>
+            <div>Salir</div>
+        </nav>
+
+        <div id="dashboard-layout">
+            <div id="forms">
+                <form>
+                    <div>
+                        <button>1</button>
+                        <button>2</button>
+                    </div>
+                    <!-- <div> -->
+                        <label for="buscar">Buscar</label>
+                        <input type="text" id="buscar" name="buscar">
+                        <hr />
+                        <label for="tags">Tags</label>
+                        <input type="text" id="tags" name="tags">
+                        <label for="hashtag">#Hashtag</label>
+                        <input type="text" id="hashtag" name="hashtad">
+                        <label for="mencion">Mencion</label>
+                        <input type="text" id="mencion" name="mencion">
+                        <hr />
+                        <label for="ordenar">Ordenar</label>
+                        <input type="text" id="ordenar" name="ordenar">
+                    <!-- </div> -->
+                        <p>Cuenta</p>
+                        <label for="buscar">Buscar</label>
+                        <input type="text" id="buscar" name="buscar">
+                        <hr />
+                        <label for="tags">Tags</label>
+                        <input type="text" id="tags" name="tags">
+                        <label for="hashtag">#Hashtag</label>
+                        <input type="text" id="hashtag" name="hashtad">
+                        <label for="mencion">Mencion</label>
+                        <input type="text" id="mencion" name="mencion">
+                </form>
+        
             </div>
-                <label for="buscar">Buscar</label>
-                <input type="text" id="buscar" name="buscar">
-                <hr />
-                <label for="tags">Tags</label>
-                <input type="text" id="tags" name="tags">
-                <label for="hashtag">#Hashtag</label>
-                <input type="text" id="hashtag" name="hashtad">
-                <label for="mencion">Mencion</label>
-                <input type="text" id="mencion" name="mencion">
-            </form>
-     
-        </div>
-        <div id="cards">Resultado 749 cuentas
-            <div id="cards-grid">
-                <div class="card">card</div>
+            <div id="cards">
+
+                <div style="height: 10vh; display: flex; flex-direction: column; justify-content: space-between; min-height: 3rem;">
+                    <h3>Resultado 749 cuentas</h3>
+                    <div id="hashtags">
+                        <p class="hashtag">hashtag1</p>
+                        <p class="hashtag">hashtag2</p>
+                        <p class="hashtag">hashtag3</p>
+                    </div>
+                </div>
+          
+
+                <div id="cards-grid">
+                    <div class="card" onclick="unfoldLayout()">
+                        <div>first column</div>
+                        <div>      
+                            <h4>Nombre</h4>
+                            <ul>
+                                <li>Audiencia: 10</li>
+                                <li>Audiencia: 10</li>
+                                <li>Audiencia: 10</li>
+                                <li>Audiencia: 10</li>
+                                <li>Audiencia: 10</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-            
+
+
+
+
+
+
+
+    <div id="card-layout">
+        <header id="card-header">
+            <button onclick="foldLayout()">x</button>
+        </header>
+        <main style="display: grid; grid-template-columns: 1fr 1fr 1fr">
+            <div style="display: flex; flex-flow: column;">
+                <div style="flex: 1; background: purple">1.1</div>
+                <div style="flex: 2; background: greenyellow;">1.2</div>
+                <div style="flex: 4; background-color: aquamarine;">1.3</div>
+                <div style="flex: 5; background-color: gold">1.4</div>
+            </div>
+            <div style="display: flex; flex-flow: column;">
+                <div style="flex: 1; background: lavender">1.1</div>
+                <div style="flex: 4; background: rgb(136, 160, 100);">1.2</div>
+                <div style="flex: 3; background-color: rgb(140, 127, 255);">1.3</div>
+                <div style="flex: 4; background-color: rgb(255, 183, 0)">1.4</div>
+            </div>
+            <div style="display: flex; flex-flow: column;">
+                <div style="flex: 1; background: rgb(33, 33, 42)">1.1</div>
+                <div style="flex: 2; background: rgb(104, 159, 22);">1.2</div>
+                <div style="flex: 2; background-color: rgb(255, 127, 185);">1.3</div>
+                <div style="flex: 2; background-color: rgb(0, 13, 255)">1.4</div>
+                <div style="flex: 2; background-color: rgb(149, 130, 83)">1.4</div>
+                <div style="flex: 3; background-color: rgb(255, 0, 38)">1.4</div>
+
+            </div>        
+        </main>
+    </div>
+    <script src="scripts/unfoldLayout.js"></script>
+
 </body>
 </html>
 
+<script>
+    // const unfoldLayout = () => {
+    //     console.log("success")
+    // }
+</script>

@@ -1,0 +1,16 @@
+#card-layout {
+    height: 100%; position: absolute; right: 0px; top: 0px; background: orange; width: 0vw; overflow: hidden;
+    transition: width 1s ease; 
+}
+
+#card-header {
+    background: pink;
+}
+
+#card-layout main {
+    height: 85vh;
+}
+
+header {
+    height: 15vh
+}

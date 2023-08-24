@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    background: lavender;
+}
+
+#dashboard {
+    height: 100vh
+}
+
+nav {
+    height: 5vh;
+    min-height: 2rem;
+}
+

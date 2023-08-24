@@ -1,9 +1,14 @@
+h3 {
+    margin: 0px
+}
+
 nav {
     display: flex;
     align-items: start;
     border-bottom: 1px solid gainsboro;
     width: 100%;
     background: white;
+    height: 7vh;
 }
 
 nav div {
@@ -14,26 +19,7 @@ nav div {
 
 #dashboard-layout {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-}
-
-#forms { /*dashboard column 1*/
-    background: red;
-}
-#forms div:first-of-type {
-    display: flex
-}
-
-#forms input {
-    min-width: 66%
-}
-
-#forms label {
-    min-width: 33%
-}
-#forms button {
-    width: 50%; 
-    background: blue;
+    grid-template-columns: 1fr 4fr;
 }
 
 #cards { /*dashboard column 2*/
@@ -46,6 +32,9 @@ nav div {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.card {
-    background: yellow
+.hashtag {
+    display: inline-block;
+    background: pink;
+    border-radius: 1rem; padding: 0.2rem 0.6rem;
+    margin: 0px;
 }
