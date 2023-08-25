@@ -25,3 +25,4 @@ problemas
 -escribir codigo html de muchas lineas
 -el proyecto falla a conectarse a internet e incorporar recursos como bootstrap
     o sea cuando pusheo con bootstrap, vercel deja de funcionar. Hasta deja de cargarse la página de vercel.com. Da un error de deployment que sugiere un problema de DNS.
+    si instalo bootstrap local tampoco funciona :/
