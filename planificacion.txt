@@ -6,12 +6,21 @@ trabajo con pomodoros de 40 minutos, flexibles segun mi estado de concentracion
 -navegacion básica
 -empezar a picar código
 
+25/8/2023
+8 horas empezando a las 15:00
+-estilizar form con bootstrap
+-implementar loader
+-dejar terminado el dashboard 
+-trastear con el json y los gráficos, no hace falta que sea resolutivo
 
 
 -planificar el dia de mañana
     ultimar detalles
     estudiar json
+    implementar loader
 
 
 
 problemas
+-escribir codigo html de muchas lineas
+-el proyecto falla a conectarse a internet y incorporar recursos como bootstrap
